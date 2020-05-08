@@ -108,6 +108,26 @@ Heavy Cavalry:
 | D | 1 | 4 |
 | E | 0 | 3 |
 
+Foot Archers:
+
+| Unit Grade | Support | Assault |
+| --- | --- | --- |
+| A | 1 | 0 |
+| B | 0 | 0 |
+| C | 0 | 0 |
+| D | 0 | 0 |
+| E | 0 | 0 |
+
+Horse Archers:
+
+| Unit Grade | Support | Assault |
+| --- | --- | --- |
+| A | 3 | 0 |
+| B | 2 | 0 |
+| C | 1 | 0 |
+| D | 0 | 0 |
+| E | 0 | 0 |
+
 ## Setting Up The Battlefield
 
 
@@ -197,15 +217,30 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 | Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| I | Fyrd | Light Infantry | D | 1 | 0 Damage | 0 | 0 |
-| II | Fyrd | Light Infantry | D | 1 | 0 Damage | 0 | 0 |
-| III | Fyrd | Light Infantry | C | 2 | 0 Damage | 0 | 0 |
-| IV | Fyrd | Light Infantry | B | 3 | 0 Damage | 0 | 0 |
-| V | Fyrd | Light Infantry | A | 4 | 0 Damage | 0 | 0 |
-| VI | Housecurl | Heavy Infantry | C | 2 | 0 Damage | 0 | 0 |
-| VII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
-| VIII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
-| IX | Harolds's Housecurl | Heavy Infantry | A | 4 | 0 Damage | 0 | 0 |
+| I | Fyrd | Light Infantry | D | 1 | 0 Damage | 1 | 0 |
+| II | Fyrd | Light Infantry | D | 1 | 0 Damage | 1 | 0 |
+| III | Fyrd | Light Infantry | C | 2 | 0 Damage | 1 | 1 |
+| IV | Fyrd | Light Infantry | B | 3 | 0 Damage | 2 | 2 |
+| V | Fyrd | Light Infantry | A | 4 | 0 Damage | 2 | 3 |
+| VI | Housecurl | Heavy Infantry | C | 2 | 0 Damage | 1 | 3 |
+| VII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 2 | 4 |
+| VIII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 2 | 4 |
+| IX | Harolds's Housecurl | Heavy Infantry | A | 4 | 0 Damage | 2 | 5 |
+
+18 command points for Harold.
+
+| Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| I | Fyrd | Light Infantry | D | 1 | 0 Damage | 1 | 0 |
+| II | Fyrd | Light Infantry | D | 1 | 0 Damage | 1 | 0 |
+| III | Fyrd | Light Infantry | C | 2 | 0 Damage | 1 | 1 |
+| IV | Fyrd | Light Infantry | B | 6 | 0 Damage | 2 | 2 |
+| V | Fyrd | Light Infantry | A | 6 | 0 Damage | 2 | 3 |
+| VI | Housecurl | Heavy Infantry | C | 5 | 0 Damage | 1 | 3 |
+| VII | Housecurl | Heavy Infantry | B | 6 | 0 Damage | 2 | 4 |
+| VIII | Housecurl | Heavy Infantry | B | 7 | 0 Damage | 2 | 4 |
+| IX | Harolds's Housecurl | Heavy Infantry | A | 7 | 0 Damage | 2 | 5 |
+
 
 ### William Duke of Normandy's Franco-Norman Army
 
@@ -213,8 +248,50 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | I | Longbow Men | Foot Archers | C | 2 | 0 Damage | 0 | 0 |
 | II | Longbow Men | Foot Archers | B | 3 | 0 Damage | 0 | 0 |
-| III | Alan the Red's Breton Contingent | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
-| IV | Williams's Norman Contingent | Heavy Infantry | A | 4 | 0 Damage | 0 | 0 |
-| V | French Contingent | Heavy Infantry | C | 2 | 0 Damage | 0 | 0 |
-| VI | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 0 | 0 |
-| VII | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 0 | 0 |
+| III | Alan the Red's Breton Contingent | Heavy Infantry | B | 3 | 0 Damage | 2 | 4 |
+| IV | Williams's Norman Contingent | Heavy Infantry | A | 4 | 0 Damage | 2 | 5 |
+| V | French Contingent | Heavy Infantry | C | 2 | 0 Damage | 1 | 3 |
+| VI | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 2 | 6 |
+| VII | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 2 | 6 |
+
+18 command points from William's leadership roll are spread amongst his units as bonus command points.
+
+| Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| I | Longbow Men | Foot Archers | C | 4 | 0 Damage | 0 | 0 |
+| II | Longbow Men | Foot Archers | B | 4 | 0 Damage | 0 | 0 |
+| III | Alan the Red's Breton Contingent | Heavy Infantry | B | 6 | 0 Damage | 2 | 4 |
+| IV | Williams's Norman Contingent | Heavy Infantry | A | 6 | 0 Damage | 2 | 5 |
+| V | French Contingent | Heavy Infantry | C | 6 | 0 Damage | 1 | 3 |
+| VI | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6 |
+| VII | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6
+
+
+
+### Aftermath
+
+William and his Franco-Norman forces won the battle; 1700 of the 7000 Franco-Norman troops, mostly Breton and French infantry, died for the victory:
+
+| Unit Identifier | Unit Name | Fate | Casualties |
+| --- | --- | --- | --- |
+| I | Longbow Men | Unharmed | 0 |
+| II | Longbow Men | Unharmed | 0 |
+| III | Alan the Red's Breton Contingent | Killed to a man | 1000 |
+| IV | Williams's Norman Contingent | Unharmed | 0 |
+| V | French Contingent | Routed after suffering 3 damage | 600 |
+| VI | French Knights | Suffered 1 damage; chased down and slaughtered fleeing fyrd | 100 |
+| VII | French Knights | Unharmed; chased down and slaghtered Harold Godwinson | 0 |
+
+William Duke of Normandy lived to become King of England, but his supporter Alan the Red died when the Breton contingent broke. In real life, Alan the Red survived the battle of Hastings, becoming 1st Lord of Richmond. Harold and his forces faired worse. The King and 2200 of his 9000 men died there in East Sussex:
+
+| Unit Identifier | Unit Name | Fate | Casualties |
+| --- | --- | --- | --- |
+| I | Fyrd | Deserted and survived unharmed | 0 |
+| II | Fyrd | Deserted and survived unharmed | 0 |
+| III | Fyrd | Deserted and survived unharmed | 0 | 
+| IV | Fyrd | Routed after taking 1 damage | 100 |
+| V | Fyrd | Routed and slaughtered by pursuing cavalry | 1000 |
+| VI | Housecurl | Routed by a cavalry charge after taking 1 damafe | 100 |
+| VII | Housecurl | Routed by poor morale after fyrd unit 5 routed; unharmed | 0 |
+| VIII | Housecurl | Routed by a cavalry charge; unharmed | 0 |
+| IX | Harolds's Housecurl | Routed and slaughtered by pursuing cavalry | 1000 |
