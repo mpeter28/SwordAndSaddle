@@ -1,13 +1,15 @@
 # Mass Combat #
 
+## Units
+
 Each unit has six attributes:
 
 1. Class
 2. Grade
 3. Command Points
-4. Health
-5. Support
-6. Assault
+4. Support
+5. Assault
+6. Health
 
 *Class* defines the fighting and equipment style of the soldiers in a unit. There are three infantry classes, two cavalry classes, and two archer classes, for a total of seven kinds of units:
 
@@ -27,13 +29,22 @@ Different unit classes have different actions available to them during battles.
 
 *Command Points* represent the ability of units to follow orders. Command points are spent moving, attacking, and holding stressful positions on the battlefield. Command points are non replenishing, so units with low command points are constrained in their options and fighting longevity. Units with many command points have more options and can fight effectively for longer. At the start of a battle, units recievestart with command points based on their grade and the quality of the leader overseeing their army.
 
-*Health* represent the number of soldiers in a unit. As a unit suffers casualties and takes damage, its health and fighting effectiveness deminish. Health is measured as a number of damage points. At the start of the battle, all units have zero damage points. Each time a unit is damaged in combat or by arrows, it gains a damage point. Units with 4 or more damage points are routed and removed from the battlefield.
+*Support* represents the fighting capability of a unit that is assisting another unit defend itself or attack an enemy unit.
 
-*Support* represents the fighting capability of a unit that is assisting another unit defend itself or attack an enemy unit. As a unit accumilates damage points, the unit's Support score goes down.
+*Assault* represents the fighting capability of a unit when leading an attack or defense.
 
-*Assault* represents the fighting capability of a unit when leading an attack or defense. As a unit accumilates damage points, the unit's Assault score goes down.
+*Health* represent the number of soldiers in a unit. Health is measured as a number of damage points. At the start of the battle, all units have zero damage points. Each time a unit is damaged in combat or by arrows, it gains a damage point. Units with 4 or more damage points are routed and removed from the battlefield. As a unit suffers casualties and takes damage, its fighting effectiveness deminishes, as represented by penalties to its _Support_ and _Assault Score_:
 
-### Unit Quality
+| Unit Health | Survivors | Support Penality | Assault Penalty |
+| --- | --- | --- | --- |
+| 0 Damage | 100% of unit | 0 | 0 |
+| 1 Damage | 90% of unit | -1 | -1 |
+| 2 Damage | 70% of unit | -2 | -2 |
+| 3 Damage | 40% of unit | -3 | -3 |
+
+A unit cannot have negaive Support or Assault scores, regardless of how high its damage penalties are.
+
+### Unit Quality Tables
 
 Unit Grade to Command Points:
 
@@ -45,16 +56,7 @@ Unit Grade to Command Points:
 | D | 1 | 3 |
 | E | 0 | 1 |
 
-Health Penalties:
-
-| Unit Health | Survivors | Support Penality | Assault Penalty |
-| --- | --- | --- | --- |
-| 0 Damage | 100% of unit | 0 | 0 |
-| 1 Damage | 90% of unit | -1 | -1 |
-| 2 Damage | 70% of unit | -2 | -2 |
-| 3 Damage | 40% of unit | -3 | -3 |
-
-### Infantry Units
+### Combat Effectiveness Tables
 
 Light Infantry:
 
@@ -86,8 +88,6 @@ Skirmish Infantry:
 | D | 2 | 0 |
 | E | 1 | 0 |
 
-### Cavalry Units
-
 Light Cavalry:
 
 | Unit Grade | Support | Assault |
@@ -108,7 +108,15 @@ Heavy Cavalry:
 | D | 1 | 4 |
 | E | 0 | 3 |
 
-### Turn Order
+## Setting Up The Battlefield
+
+
+Defensable Terrain
+Impassable Terrain
+Open Terrain
+
+
+## Turn Order
 
 The army whose leader rolled a higher _Leadership_ roll has choice of going first or second
 
@@ -146,8 +154,8 @@ The army whose leader rolled a higher _Leadership_ roll has choice of going firs
 
 | Action Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Attack' | A non _Archery Unit_ unit attacks target adjacent enemy unit | 1c | Target unit must 'Defend' or 'Feint' |
-| 'Support Attack' | A non _Archery Unit_  unit adjacent to both an attacking ally unit and the target enemy unit supports the attack | 0c | None |
+| 'Attack' | A non _Archery Unit_ unit attacks target adjacent enemy unit | 0c | Target unit must 'Defend' or 'Feint' |
+| 'Support Attack' | A non _Archery_  unit adjacent to an enemy unit under attack supports the attack on targeted enemy unit | 0c | None |
 | 'Hold' | The unit does nothing | 0c | None |
 
 | Reaction Name | Description | Cost | Available Reactions |
@@ -161,7 +169,7 @@ During defense declarations, it is the units of the off-turn player which act.
 
 | Action Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Support Defense' | A non _Archery Unit_ unit adjacent to both a defending ally unit and any enemy unit supports the defense of the target defending unit | 0c | None |
+| 'Support Defense' | A non _Archery_ unit adjacent to an attacking enemy unit supports the defense of the targeted defending unit | 0c | None |
 | 'Hold' | The unit does nothing | 0c | None |
 
 5. Resolve Combat
@@ -170,7 +178,7 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Lose Attack' | The losing unit takes casualties but holds on | 2c 1dmg | None |
+| 'Lose Attack' | The losing unit takes casualties but holds on | 1c 1dmg | None |
 
 ### Universal Reactions
 
