@@ -1,5 +1,37 @@
 # Mass Combat #
 
+Each unit has six attributes:
+
+1. Class
+2. Grade
+3. Command Points
+4. Health
+5. Support
+6. Assault
+
+*Class* defines the fighting and equipment style of the soldiers in a unit. There are three infantry classes, two cavalry classes, and two archer classes, for a total of seven kinds of units:
+
+| Class | Super Class |  Description | Combat Role |
+| --- | --- | --- | --- |
+| Light Infantry | Infantry | Light infantry are unarmored or lightly armored. They fight with simple weapons in flexible formations and are often not professioal soldiers | Direct support, holding battle lines | 
+| Heavy Infantry | Infantry | Heavily armored and armed, heavy infantry are usually elite troops. They often fight in tightly packed formatons to maximize their impact. | Assault, holding battle lines |
+| Skirmish Infantry | Infantry | Skirmish infantry are quick moving auxillary troops that harass enemies with rocks, javelins, and other indirect weapons | Direct support |
+| Light Cavalry | Cavalry | Lightly armed and armored mounted soldiers | Direct support, exploiting enemy vulnerabilities |
+| Heavy Cavalry | Cavalry | Armored riders, often on armored horses, equiped with lances and other powerful weapons | Assault, exploiting enemy vulnerabilities |
+| Archers | Archers | Archers fight indirectly, raining missiles down upon enemies from afar | Indirect support |
+| Horse Archers | Archers | Elite archers who are capable of shooting from horseback and evading fights | Indirect support |
+
+Different unit classes have different actions available to them during battles. 
+
+*Grade* represents the qualty of a unit, measuring abstract attribute like experience, discipline, and training. There are five grades of unit: A, B, C, D, and E. Grade 'A' represents the highest quality troops of a given class. Veteran troops with high moral, top tier equipment, and high resolve are grade 'A' troops. Grade 'E' represents the worst quality troops of a given class. Raw recruits or levies with sub par or no equipment and no resolve are grade 'E'. Grades 'B', 'C' and 'D' fall between the two extremes.
+
+*Command Points* represent the ability of units to follow orders. Command points are spent moving, attacking, and holding stressful positions on the battlefield. Command points are non replenishing, so units with low command points are constrained in their options and fighting longevity. Units with many command points have more options and can fight effectively for longer. At the start of a battle, units recievestart with command points based on their grade and the quality of the leader overseeing their army.
+
+*Health* represent the number of soldiers in a unit. As a unit suffers casualties and takes damage, its health and fighting effectiveness deminish. Health is measured as a number of damage points. At the start of the battle, all units have zero damage points. Each time a unit is damaged in combat or by arrows, it gains a damage point. Units with 4 or more damage points are routed and removed from the battlefield.
+
+*Support* represents the fighting capability of a unit that is assisting another unit defend itself or attack an enemy unit. As a unit accumilates damage points, the unit's Support score goes down.
+
+*Assault* represents the fighting capability of a unit when leading an attack or defense. As a unit accumilates damage points, the unit's Assault score goes down.
 
 ### Unit Quality
 
@@ -13,14 +45,14 @@ Unit Grade to Command Points:
 | D | 1 | 3 |
 | E | 0 | 1 |
 
-Fighting Strength Penalties:
+Health Penalties:
 
 | Unit Health | Survivors | Support Penality | Assault Penalty |
 | --- | --- | --- | --- |
-| Full | 100% | 0 | 0 |
-| 1 Damage | 90% | -1 | -1 |
-| 2 Damage | 70% | -2 | -2 |
-| 3 Damage | 40% | -3 | -3 |
+| 0 Damage | 100% of unit | 0 | 0 |
+| 1 Damage | 90% of unit | -1 | -1 |
+| 2 Damage | 70% of unit | -2 | -2 |
+| 3 Damage | 40% of unit | -3 | -3 |
 
 ### Infantry Units
 
@@ -78,6 +110,8 @@ Heavy Cavalry:
 
 ### Turn Order
 
+The army whose leader rolled a higher _Leadership_ roll has choice of going first or second
+
 1. Missile volleys
 
 | Action Name | Description | Cost | Available Reactions |
@@ -88,7 +122,7 @@ Heavy Cavalry:
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
 | 'Endure Missiles' | A unit targeted by a 'Volley' of missiles uses its discipline to endure the attack, avoiding damage | 1c | None |
-| 'Take Damage from Missiles' | A unit targeted by a 'Volley' of missiles is damaged by the attack | 1d | None |
+| 'Take Damage from Missiles' | A unit targeted by a 'Volley' of missiles is damaged by the attack | 1dmg | None |
 
 2. Movement
 
@@ -111,13 +145,14 @@ Heavy Cavalry:
 
 | Action Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Attack' | A non _Archery Unit_ unit attacks target adjacent enemy unit | 1c | Target unit must 'Defend' |
+| 'Attack' | A non _Archery Unit_ unit attacks target adjacent enemy unit | 1c | Target unit must 'Defend' or 'Feint' |
 | 'Support Attack' | A non _Archery Unit_  unit adjacent to both an attacking ally unit and the target enemy unit supports the attack | 0c | None |
 | 'Hold' | The unit does nothing | 0c | None |
 
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
 | 'Defend' | The target unit under 'Attack' defends itself and cannot take any actions during the Defense Declarations stage | 0c | None |
+| 'Feint' | The attacked _Skirmish_ or _Horse Archer_ pulls back when attacked, negating the attack. Move the attacked unit one hex away from the attacking unit. | 2c | None |
 
 4. Defense Declarations
 
@@ -134,7 +169,7 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Lose Attack' | The losing unit takes casualties but holds on | 2c 1d | None |
+| 'Lose Attack' | The losing unit takes casualties but holds on | 2c 1dmg | None |
 
 ### Universal Reactions
 
@@ -144,19 +179,3 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | 'Moral Check' | The unit holds firm, even as ally units break and flee | 1c | None |
 | 'Slaughter the Survivors' | The victorious attacking unit chases down the routed survivors, killing or capturing them all. Removed the victorious unit from the field | 0c | None |
 | 'Allow Survivors to Escape' | The victorious attacking unit holds its position on the battle field | 1c | None |
-
-### Unit Actions
-
-Fire arrow 1c
-Assault 1c
-Hold position against retreating enemy 1c
-Retreat 2c
-Cavalry charge 1c
-Face cavalry charge 1c
-Moral check 1c
-Cavalry slaughter routed enemy 0c
-Cavalry allow enemy to rout 2c
-Withstand archer volley 1c
-Injured by archer volley 1d
-Rout 0c
-Take damage and endure 2c 1d
