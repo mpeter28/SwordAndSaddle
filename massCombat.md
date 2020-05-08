@@ -13,7 +13,7 @@ Unit Grade to Command Points:
 | D | 1 | 3 |
 | E | 0 | 1 |
 
-Fighting Strenght Penalties:
+Fighting Strength Penalties:
 
 | Unit Health | Survivors | Support Penality | Assault Penalty |
 | --- | --- | --- | --- |
@@ -94,12 +94,12 @@ Heavy Cavalry:
 
 | Action Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
-| 'Advance'x | The unit moves up to 3 hexes, stopping closer to an enemy unit than it started | 0c | None |
+| 'Advance' | The unit moves up to 3 hexes, stopping closer to an enemy unit than it started | 0c | None |
 | 'Disengage' | A unit, adjacent to an enemy unit, moves one hex, becoming adjacent to no enemy units | 2c | The adjacent enemy unit with lowest command points must 'Pursue' or 'Allow Disengagement' |
 | 'Engage' | A unit, adjacent to an enemy unit, holds position | 0c | None |
 | 'Hold' | A unit, adjacent to no enemy units, holds position | 1c | None |
 | 'Manuveur' | A unit, adjacent to no enemy units, moves up to 2 hexes | 1c | None |
-| 'Charge' | A _Cavalry Unit_, adjacent to no enemy units, moves up to 6 hexes, ending adjacent to a targeted enemy unit. During the combat phase, the _Cavalry Unit_ is committed to 'Attack' the targeted enemy unit | Target unit, if infantry, must 'Endure Cavalry Charge' |
+| 'Charge' | A _Cavalry Unit_, adjacent to no enemy units, moves up to 6 hexes, ending adjacent to a targeted enemy unit. During the combat phase, the _Cavalry Unit_ is committed to 'Attack' the targeted enemy unit | 0c | Target unit, if infantry, must 'Endure Cavalry Charge' |
 
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
