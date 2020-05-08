@@ -132,6 +132,7 @@ The army whose leader rolled a higher _Leadership_ roll has choice of going firs
 | 'Disengage' | A unit, adjacent to an enemy unit, moves one hex, becoming adjacent to no enemy units | 2c | The adjacent enemy unit with lowest command points must 'Pursue' or 'Allow Disengagement' |
 | 'Engage' | A unit, adjacent to an enemy unit, holds position | 0c | None |
 | 'Hold' | A unit, adjacent to no enemy units, holds position | 1c | None |
+| 'Waiting Position' | A _Light Cavalry_, _Archer_, or _Skirmish Infantry_ unit holds position | 0c | None |
 | 'Manuveur' | A unit, adjacent to no enemy units, moves up to 2 hexes | 1c | None |
 | 'Charge' | A _Cavalry Unit_, adjacent to no enemy units, moves up to 6 hexes, ending adjacent to a targeted enemy unit. During the combat phase, the _Cavalry Unit_ is committed to 'Attack' the targeted enemy unit | 0c | Target unit, if infantry, must 'Endure Cavalry Charge' |
 
