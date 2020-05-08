@@ -20,7 +20,7 @@ Each unit has six attributes:
 | Skirmish Infantry | Infantry | Skirmish infantry are quick moving auxillary troops that harass enemies with rocks, javelins, and other indirect weapons | Direct support |
 | Light Cavalry | Cavalry | Lightly armed and armored mounted soldiers | Direct support, exploiting enemy vulnerabilities |
 | Heavy Cavalry | Cavalry | Armored riders, often on armored horses, equiped with lances and other powerful weapons | Assault, exploiting enemy vulnerabilities |
-| Archers | Archers | Archers fight indirectly, raining missiles down upon enemies from afar | Indirect support |
+| Foot Archers | Archers | Archers fight indirectly, raining missiles down upon enemies from afar | Indirect support |
 | Horse Archers | Archers | Elite archers who are capable of shooting from horseback and evading fights | Indirect support |
 
 Different unit classes have different actions available to them during battles. 
@@ -180,7 +180,7 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | --- | --- | --- | --- |
 | 'Lose Attack' | The losing unit takes casualties but holds on | 1c 1dmg | None |
 
-### Universal Reactions
+### Rout Reactions
 
 | Reaction Name | Description | Cost | Available Reactions |
 | --- | --- | --- | --- |
@@ -188,3 +188,33 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | 'Moral Check' | The unit holds firm, even as ally units break and flee | 1c | None |
 | 'Slaughter the Survivors' | The victorious attacking unit chases down the routed survivors, killing or capturing them all. Removed the victorious unit from the field | 0c | None |
 | 'Allow Survivors to Escape' | The victorious attacking unit holds its position on the battle field | 1c | None |
+
+## Example Battle
+
+
+
+### Harold Godwinson's Anglo-Saxon Army
+
+| Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| I | Fyrd | Light Infantry | D | 1 | 0 Damage | 0 | 0 |
+| II | Fyrd | Light Infantry | D | 1 | 0 Damage | 0 | 0 |
+| III | Fyrd | Light Infantry | C | 2 | 0 Damage | 0 | 0 |
+| IV | Fyrd | Light Infantry | B | 3 | 0 Damage | 0 | 0 |
+| V | Fyrd | Light Infantry | A | 4 | 0 Damage | 0 | 0 |
+| VI | Housecurl | Heavy Infantry | C | 2 | 0 Damage | 0 | 0 |
+| VII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
+| VIII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
+| IX | Harolds's Housecurl | Heavy Infantry | A | 4 | 0 Damage | 0 | 0 |
+
+### William Duke of Normandy's Franco-Norman Army
+
+| Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| I | Longbow Men | Foot Archers | C | 2 | 0 Damage | 0 | 0 |
+| II | Longbow Men | Foot Archers | B | 3 | 0 Damage | 0 | 0 |
+| III | Alan the Red's Breton Contingent | Heavy Infantry | B | 3 | 0 Damage | 0 | 0 |
+| IV | Williams's Norman Contingent | Heavy Infantry | A | 4 | 0 Damage | 0 | 0 |
+| V | French Contingent | Heavy Infantry | C | 2 | 0 Damage | 0 | 0 |
+| VI | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 0 | 0 |
+| VII | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 0 | 0 |
