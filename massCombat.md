@@ -270,13 +270,15 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 ![The Hill](/Hastings/battlegrid.svg)
 
-![Anglo Saxon Deployment](/Hastings/haroldsArrvies.svg)
+![Anglo Saxon Deployment](/Hastings/haroldsArrives.svg)
 
 ![Franco Norman Deployment](/Hastings/williamArrives.svg)
 
 ### The Battle
 
 ![Early Desertions](/Hastings/fyrdOneTwoDesert.svg)
+
+![More Desertions](/Hastings/fyrdThreeDesert.svg)
 
 ![William Advances](/Hastings/williamsLineAdvances.svg)
 
