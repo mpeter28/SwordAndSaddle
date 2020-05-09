@@ -298,7 +298,7 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 ![Frence Route](/Hastings/frenchRoute.svg)
 
-![Harold's Left Fyrd Routed](/Hastngs/haroldsFyrdLeftRoute.svg)
+![Harold's Left Fyrd Routed](/Hastings/haroldsFyrdLeftRoute.svg)
 
 ![Harold's Left Slaughtered](/Hastings/justHaroldNow.svg)
 
