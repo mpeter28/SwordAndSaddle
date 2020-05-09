@@ -266,7 +266,41 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | VI | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6 |
 | VII | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6
 
+### The Battlefield
 
+![The Hill](/Hastings/battlegrid.svg)
+
+![Anglo Saxon Deployment](/Hastings/haroldsArrvies.svg)
+
+![Franco Norman Deployment](/Hastings/williamArrives.svg)
+
+### The Battle
+
+![Early Desertions](/Hastings/fyrdOneTwoDesert.svg)
+
+![William Advances](/Hastings/williamsLineAdvances.svg)
+
+![French Cavalry Disengages](/Hastings/cavalryDisengage.svg)
+
+![Housecurls Route](/Hastings/housecurlsRoute.svg)
+
+![Fyrd Advances on Harold's Right](/Hastings/fyrdAdvances.svg)
+
+![Second Cavalry Charge](/Hastings/secondCavalryCharge.svg)
+
+![Harold's Left Routes](/Hastings/haroldsLeftRoutes.svg)
+
+![Fyrd Advances on Harold's Left](/Hastings/fyrdAdvancesOnTheLeft.svg)
+
+![Bretons Route](/Hastings/bretonsRoute.svg)
+
+![Frence Route](/Hastings/frenchRoute.svg)
+
+![Harold's Left Fyrd Routed](/Hastngs/haroldsFyrdLeftRouted.svg)
+
+![Harold's Left Slaughtered](/Hastings/justHaroldNow.svg)
+
+![Final Charge](/Hastings/finalCharge.svg)
 
 ### Aftermath
 
