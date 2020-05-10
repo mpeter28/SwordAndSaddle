@@ -288,7 +288,6 @@ William's army faced Harold's army on a great hill in East Essex, a dozen miles 
 The hill provided a defensive advantage; any unit on the cusp of the hill (as marked by the brown line) gained +2 assault when defending against an attack from units not on the hill. Harold won the Leadership contest, rolling 18 against William's 17 and giving him right to choose which army deploys first or which army acts first. He chose that his army would deploy first in a defensive line a top the hill.
 
 ![Anglo Saxon Deployment](/Hastings/haroldsArrives.svg)
-*Anglo-Saxon Battle Line*
 
 The stream to the east and the forrest to the west protected Harold's battle line from flanking manuveurs, which offset William's advantage in cavalry. At the front of the battle line, facing the field to the south, were Harold's heavy infantry Housecurls. Harold's light infantry Fyrd units were held in reserve to fill in any gaps in the defenseive line as needed.
 
@@ -299,6 +298,20 @@ The Franco-Norman forces deployed second to the batle field, in their own line o
 William's placed his three heavy infantry units in the center, supported by the heavy cavalry on both flanks. His archers took safe positions behind the line.
 
 ### The Battle
+
+As Harold had chosen which army would deploy first, William chose which amy would act first. He chose that Harold's army would start with the first turn. On turn one, Harold's army did nothing; during the move phase, each of Harold's units took the 'Hold' action for one command point, to avoid having to advance and abandon their defensive position. William, for turn one, had his foot archer units I and II 'Volley' upon Harold's units VI and VII. VI and VII both used the 'Endure Missiles' action in response. During his movement phase, William's infantry and cavalry take the 'Hold' action like Harold did, as Willia prefered to soften Harold's forces with arrows first for several turns . William's archers take the 'Wait' action for free. The state of units at the end of turn one is:
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+| I | 0 | 0 Damage | I | 3 | 0 Damage |
+| II | 0 | 0 Damage | II | 3 | 0 Damage |
+| III | 1 | 0 Damage | III | 5 | 0 Damage |
+| IV | 5 | 0 Damage | IV | 5 | 0 Damage |
+| V | 5 | 0 Damage | V | 5 | 0 Damage |
+| VI | 3 | 0 Damage | VI | 5  | 0 Damage |
+| VII | 4 | 0 Damage | VII | 5 | 0 Damage |
+| VIII | 6 | 0 Damage ||||
+| IX | 6 | 0 Damage ||||
 
 ![Early Desertions](/Hastings/fyrdOneTwoDesert.svg)
 
