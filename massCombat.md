@@ -224,6 +224,8 @@ For each pair of attacking and defending units, resolve the attack in the order 
 
 ### Harold Godwinson's Anglo-Saxon Army
 
+Harold Godwinson's army consisted entirely of infantry. The core of his army were the _housecurls_, professional heavy infantry who worked for pay. Housecurl's were armed with shield, great axes and spears, and wore mail into battle. Supporting the housecurls were a secondary force of levy infantry, the _fyrd_. Fyrd were non professional militia who were usually farmers most of the time. They fought with spears and whatever they could afford, which was often not much. Harold's army had a backbone of veteran troops, housecurl and fyrd alike, who had fought with Harold previously to defeat vikings claimants to the throne of England. As Harold moved south to intercept William, Harold recruited fresh, less experienced troops to pad his army. When he arrived to the battle, Harold had a force of 9000 men, making 9 units of 1000 soldiers each.
+
 | Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | I | Fyrd | Light Infantry | D | 1 | 0 Damage | 1 | 0 |
@@ -236,7 +238,7 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | VIII | Housecurl | Heavy Infantry | B | 3 | 0 Damage | 2 | 4 |
 | IX | Harolds's Housecurl | Heavy Infantry | A | 4 | 0 Damage | 2 | 5 |
 
-18 command points for Harold.
+Harold made a leadership check to lead his army into battle, rolling 18. This roll give Harold 18 bonus command points to distribute amongst his units, which he did by focusing the points on his stronger housecurl and 'A' and 'B' grade fyrd units.
 
 | Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -250,8 +252,9 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | VIII | Housecurl | Heavy Infantry | B | 7 | 0 Damage | 2 | 4 |
 | IX | Harolds's Housecurl | Heavy Infantry | A | 7 | 0 Damage | 2 | 5 |
 
-
 ### William Duke of Normandy's Franco-Norman Army
+
+William crossed the English channel with a hodge podge coalition army of 7000 Breton, Norman, and French soldiers. His army was light on infantry, and smaller than Harolds, but had strong cavalry and archer support.
 
 | Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -259,11 +262,12 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | II | Longbow Men | Foot Archers | B | 3 | 0 Damage | 0 | 0 |
 | III | Alan the Red's Breton Contingent | Heavy Infantry | B | 3 | 0 Damage | 2 | 4 |
 | IV | Williams's Norman Contingent | Heavy Infantry | A | 4 | 0 Damage | 2 | 5 |
-| V | French Contingent | Heavy Infantry | C | 2 | 0 Damage | 1 | 3 |
+| V | French Contingent | Heavy Infantry | B | 3 | 0 Damage | 1 | 3 |
 | VI | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 2 | 6 |
 | VII | French Knights | Heavy Cavalry | B | 3 | 0 Damage | 2 | 6 |
 
-18 command points from William's leadership roll are spread amongst his units as bonus command points.
+William made a leadership check to lead his army into battle, rolling 17. William spread his bonus 17 command points roughly evenly amongst his units.
+17 command points from William's leadership roll are spread amongst his units as bonus command points.
 
 | Unit Identifier | Unit Name | Class | Grade | Command Points | Health | Support | Assault |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -271,28 +275,28 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | II | Longbow Men | Foot Archers | B | 4 | 0 Damage | 0 | 0 |
 | III | Alan the Red's Breton Contingent | Heavy Infantry | B | 6 | 0 Damage | 2 | 4 |
 | IV | Williams's Norman Contingent | Heavy Infantry | A | 6 | 0 Damage | 2 | 5 |
-| V | French Contingent | Heavy Infantry | C | 6 | 0 Damage | 1 | 3 |
+| V | French Contingent | Heavy Infantry | B | 6 | 0 Damage | 1 | 3 |
 | VI | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6 |
 | VII | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6
 
-### The Battle
+### The Battle Field
 
-William's army faced Harold's army on a great hill in East Essex, a dozen miles northwest of the town of Hastings. To the west of the hill was forrest, and to the east of the hill a stream.
+William's army faced Harold's army on a great hill in East Essex, a dozen miles northwest of the town of Hastings. To the west of the hill was impassable forrest, and to the east of the hill an impassable stream.
 
 ![The Hill](/Hastings/battlegrid.svg)
 
-Harold won the Leadership contest, rolling 18 against William's 17 and giving him right to choose which army deploys first or which army acts first. He chose that his army would deploy first in a defensive line a top the hill.
+The hill provided a defensive advantage; any unit on the cusp of the hill (as marked by the brown line) gained +2 assault when defending against an attack from units not on the hill. Harold won the Leadership contest, rolling 18 against William's 17 and giving him right to choose which army deploys first or which army acts first. He chose that his army would deploy first in a defensive line a top the hill.
 
 ![Anglo Saxon Deployment](/Hastings/haroldsArrives.svg)
 *Anglo-Saxon Battle Line*
 
-The stream to the east and the forrest to the west protected Harold's battle line from flanking manuveurs, which offset William's advantage in cavalry. At the front of the battle line, facing the field to the south, were Harold's heavy infantry Housecurls. Harold's light infantry Fyrd units were held in reserve to fill in any gaps in the defenseive line as they formed.
+The stream to the east and the forrest to the west protected Harold's battle line from flanking manuveurs, which offset William's advantage in cavalry. At the front of the battle line, facing the field to the south, were Harold's heavy infantry Housecurls. Harold's light infantry Fyrd units were held in reserve to fill in any gaps in the defenseive line as needed.
 
 The Franco-Norman forces deployed second to the batle field, in their own line opposing the Anglo-Saxon line.
 
 ![Franco Norman Deployment](/Hastings/williamArrives.svg)
 
-William's placed his three heavy inftanry units in the center, supported by the heavy cavalry on both flanks. His archers took safe positions behind the line.
+William's placed his three heavy infantry units in the center, supported by the heavy cavalry on both flanks. His archers took safe positions behind the line.
 
 ### The Battle
 
