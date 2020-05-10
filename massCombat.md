@@ -299,7 +299,7 @@ William's placed his three heavy infantry units in the center, supported by the 
 
 ### The Battle
 
-As Harold had chosen which army would deploy first, William chose which amy would act first. He chose that Harold's army would start with the first turn. On turn one, Harold's army did nothing; during the move phase, each of Harold's units took the 'Hold' action for one command point, to avoid having to advance and abandon their defensive position. William, for turn one, had his foot archer units I and II 'Volley' upon Harold's units VI and VII. VI and VII both used the 'Endure Missiles' action in response. During his movement phase, William's infantry and cavalry take the 'Hold' action like Harold did, as Willia prefered to soften Harold's forces with arrows first for several turns . William's archers take the 'Wait' action for free. The state of units at the end of turn one is:
+As Harold had chosen which army would deploy first, William chose which amy would act first. He chose that Harold's army would start with the first turn. On turn one, Harold's army did nothing; during the move phase, each of Harold's units took the 'Hold' action for one command point, to avoid having to advance and abandon their defensive position. William, for turn one, had his foot archer units I and II 'Volley' upon Harold's units VI and VII. VI and VII both used the 'Endure Missiles' reaction in response. During his movement phase, William's infantry and cavalry take the 'Hold' action like Harold did, as Willia prefered to soften Harold's forces with arrows first for several turns . William's archers take the 'Wait' action for free. The state of units at the end of turn one is:
 
 | Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
 | --- | --- | --- | --- | --- | --- |
@@ -313,9 +313,27 @@ As Harold had chosen which army would deploy first, William chose which amy woul
 | VIII | 6 | 0 Damage ||||
 | IX | 6 | 0 Damage ||||
 
+For turn two, Harold does as he did in turn one, except this time fyrd units I and II 'Route' instead of taking the 'Hold' action in the movement phase. Units I and II comprised Harold's worst, least disciplined troops, and they are out of command points with which to 'Hold'. Instead, they flee when their king does seemingly nothing in the face of hostile arrows.
+
 ![Early Desertions](/Hastings/fyrdOneTwoDesert.svg)
+*Fyrd units I and II desert*
+
+William likewise repeats what he did in turn one, only this time during the archery phase, his archers _Volley_ against Harold's units IX and VIII, which both take the _Endure Missiles_ reaction in response. The state of units at the end of turn two is:
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 2 | 0 Damage |
+|||| II | 2 | 0 Damage |
+| III | 0 | 0 Damage | III | 4 | 0 Damage |
+| IV | 4 | 0 Damage | IV | 4 | 0 Damage |
+| V | 4 | 0 Damage | V | 4 | 0 Damage |
+| VI | 2 | 0 Damage | VI | 4  | 0 Damage |
+| VII | 3 | 0 Damage | VII | 4 | 0 Damage |
+| VIII | 4 | 0 Damage ||||
+| IX | 4 | 0 Damage ||||
 
 ![More Desertions](/Hastings/fyrdThreeDesert.svg)
+*Fyrd unit III deserts*
 
 ![William Advances](/Hastings/williamsLineAdvances.svg)
 
