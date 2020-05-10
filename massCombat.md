@@ -136,6 +136,15 @@ Impassable Terrain
 Open Terrain
 
 
+
+
+1. Which army deploys to the battle field first?
+2. Which army takes their turn first after deployment?
+
+
+
+
+
 ## Turn Order
 
 The army whose leader rolled a higher _Leadership_ roll has choice of going first or second
@@ -266,13 +275,24 @@ For each pair of attacking and defending units, resolve the attack in the order 
 | VI | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6 |
 | VII | French Knights | Heavy Cavalry | B | 6 | 0 Damage | 2 | 6
 
-### The Battlefield
+### The Battle
+
+William's army faced Harold's army on a great hill in East Essex, a dozen miles northwest of the town of Hastings. To the west of the hill was forrest, and to the east of the hill a stream.
 
 ![The Hill](/Hastings/battlegrid.svg)
 
+Harold won the Leadership contest, rolling 18 against William's 17 and giving him right to choose which army deploys first or which army acts first. He chose that his army would deploy first in a defensive line a top the hill.
+
 ![Anglo Saxon Deployment](/Hastings/haroldsArrives.svg)
+*Anglo-Saxon Battle Line*
+
+The stream to the east and the forrest to the west protected Harold's battle line from flanking manuveurs, which offset William's advantage in cavalry. At the front of the battle line, facing the field to the south, were Harold's heavy infantry Housecurls. Harold's light infantry Fyrd units were held in reserve to fill in any gaps in the defenseive line as they formed.
+
+The Franco-Norman forces deployed second to the batle field, in their own line opposing the Anglo-Saxon line.
 
 ![Franco Norman Deployment](/Hastings/williamArrives.svg)
+
+William's placed his three heavy inftanry units in the center, supported by the heavy cavalry on both flanks. His archers took safe positions behind the line.
 
 ### The Battle
 
