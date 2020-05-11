@@ -299,7 +299,7 @@ William's placed his three heavy infantry units in the center, supported by the 
 
 ### The Battle
 
-As Harold had chosen which army would deploy first, William chose which amy would act first. He chose that Harold's army would start with the first turn. On turn one, Harold's army did nothing; during the move phase, each of Harold's units took the 'Hold' action for one command point, to avoid having to advance and abandon their defensive position. William, for turn one, had his foot archer units I and II 'Volley' upon Harold's units VI and VII. VI and VII both used the 'Endure Missiles' reaction in response. During his movement phase, William's infantry and cavalry take the 'Hold' action like Harold did, as Willia prefered to soften Harold's forces with arrows first for several turns . William's archers take the 'Wait' action for free. The state of units at the end of turn one is:
+As Harold had chosen which army would deploy first, William chose which amy would act first. He chose that Harold's army would start with the first turn. On turn one, Harold's army did nothing; during the move phase, each of Harold's units took the 'Hold' action for one command point, to avoid having to advance and abandon their defensive position. William, for turn one, had his foot archer units I and II 'Volley' upon Harold's units VI and VII. VI and VII both used the 'Endure Missiles' reaction in response. During his movement phase, William's infantry and cavalry take the 'Hold' action like Harold did, as Willia prefered to soften Harold's forces with arrows first for several turns . William's archers take the 'Wait' action for free. The state of units at the end of turn one was:
 
 | Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
 | --- | --- | --- | --- | --- | --- |
@@ -318,7 +318,7 @@ For turn two, Harold does as he did in turn one, except this time fyrd units I a
 ![Early Desertions](/Hastings/fyrdOneTwoDesert.svg)
 *Fyrd units I and II desert*
 
-William likewise repeats what he did in turn one, only this time during the archery phase, his archers _Volley_ against Harold's units IX and VIII, which both take the _Endure Missiles_ reaction in response. The state of units at the end of turn two is:
+William likewise repeats what he did in turn one, only this time during the archery phase, his archers _Volley_ against Harold's units IX and VIII, which both take the _Endure Missiles_ reaction in response. The state of units at the end of turn two was:
 
 | Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
 | --- | --- | --- | --- | --- | --- |
@@ -332,14 +332,107 @@ William likewise repeats what he did in turn one, only this time during the arch
 | VIII | 4 | 0 Damage ||||
 | IX | 4 | 0 Damage ||||
 
+Harold continued with his defensive, stalling plan in turn three. Each of his units took the 'Hold' action in the movement phase, except for unit number III, which had to 'Rout' as it had was out of command points to 'Hold' with.
+
 ![More Desertions](/Hastings/fyrdThreeDesert.svg)
 *Fyrd unit III deserts*
 
+William opened his turn three with a _Volley_ from both of his foot archer units, targeting Harold's units VII and VIII, which both took the _Endure Missiles_ reaction in response. During his movement phase, William's cavalry took the _Charge_ action, advacing against Harold's housecurl units VI and VIII, which both took the _Endure Cavalry Charge_ reaction in response. The rest of William's infantry took the _Advance_ action and closed the distance with Harold's defensive line.
+
 ![William Advances](/Hastings/williamsLineAdvances.svg)
+*Franco-Norman line charges the hill*
+
+William's turn three was the first turn with a meaningful combat declerations and defense declerations phase. The state of units going into the combat phases was:
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 1 | 0 Damage |
+|||| II | 1 | 0 Damage |
+|||| III | 4 | 0 Damage |
+| IV | 3 | 0 Damage | IV | 4 | 0 Damage |
+| V | 3 | 0 Damage | V | 4 | 0 Damage |
+| VI | 1 | 0 Damage | VI | 4  | 0 Damage |
+| VII | 1 | 0 Damage | VII | 4 | 0 Damage |
+| VIII | 2 | 0 Damage ||||
+| IX | 3 | 0 Damage ||||
+
+William's VI cavalry unit used 'Attack' against Harold's VI housecurl unit, as the previous 'Charge' action obligated it to do. Likewise William's VII cavalry unit used 'Attack' against Harold's VIII housecurl unit. William's unit III used 'Support Attack' in assistance of the VI cavalry, and his unit V used 'Support Attack' in assistance of the VII cavalry. Harold's units VI and VIII used the 'Defend' reaction, which was there only valid option. None of Harold's units were able to support the defense, as they were not adjacent to the attacking cavalry units. Both attacks go poorly for the french cavalry, who roll poorly:
+
+| Resolution Order |  Attacker | Defender | Attack Total | Defense Total | Outcome |
+| --- | --- | --- | --- | --- | --- |
+| 1 | VII cavalry | VIII housecurls | 6 assault + 2 support + 2 dice roll = 9 | 4 assault + 2 terrain bonus + 4 dice roll = 9 | Tie |
+| 2 | VI cavalry | VI housecurls | 6 assault + 2 support + 2 dice roll = 10 | 3 assault + 2 terrain bonus + 6 dice roll = 11 | VI cavalry loses and takes the 'Lose Attack' reaction |
+
+The state of units after the combat resolution was:
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 1 | 0 Damage |
+|||| II | 1 | 0 Damage |
+|||| III | 4 | 0 Damage |
+| IV | 3 | 0 Damage | IV | 4 | 0 Damage |
+| V | 3 | 0 Damage | V | 4 | 0 Damage |
+| VI | 1 | 0 Damage | VI | 3  | 1 Damage |
+| VII | 1 | 0 Damage | VII | 4 | 0 Damage |
+| VIII | 2 | 0 Damage ||||
+| IX | 3 | 0 Damage ||||
+
+On turn four, Harold counter attacked. During the movment phase, his four housecurl units took the free 'Engage' action, which they could now do. His remaining fyrd units took the 'Hold' action, reducing both to 2 combat points. Housecurl unit VI, supported by housecurl unit VII, attacked the breton unit III, which was supported in its defense by the damaged cavalry unit VI. Housecurl unit IX, supported by housecurl unit VIII, attacked the french unit V, which was supported in its defense by norman unit IV.
+
+| Resolution Order |  Attacker | Defender | Attack Total | Defense Total | Outcome |
+| --- | --- | --- | --- | --- | --- |
+| 1 | VI housecurl | III breton contingent | 3 assault + 2 support + 5 dice roll = 10 | 4 assault + 2 terrain bonus + 3 dice roll = 9 | III breton contingent loses and takes the 'Lose Attack' reaction |
+| 2 | IX housecurl | V french contingent | 5 assault + 2 support + 3 dice roll = 10 | 4 assault + 2 terrain bonus + 3 dice roll = 9 | V french contingent loses and takes the 'Lose Attack' reaction |
+
+After Harold's counter attack, the unit state was:
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 1 | 0 Damage |
+|||| II | 1 | 0 Damage |
+|||| III | 3 | 1 Damage |
+| IV | 2 | 0 Damage | IV | 4 | 0 Damage |
+| V | 2 | 0 Damage | V | 3 | 1 Damage |
+| VI | 1 | 0 Damage | VI | 3  | 1 Damage |
+| VII | 1 | 0 Damage | VII | 4 | 0 Damage |
+| VIII | 2 | 0 Damage ||||
+| IX | 3 | 0 Damage ||||
+
+William responds on his turn four with a final _Volley_ or arrows against Harolds housecurl units VI and IX, which both react with the _Endure Missiles_ reaction. This will be the last volley of arrows fired in the battle, as William's archers have run out of command points. During the movement phase, both french cavalry units take the _Disengage_ action for two command points, to set up another cavalry charge to break Harold's flanks. The units on Harold's flanks, housecurl units VI and VIII, have the choice to _Pursue_ the cavalry or _Allow Disengagement_. Housecurl VIII takes the later action, but housecurl VI is forced to _Pursue_ as it has no command points left to pay for the _Allow Disengagement_ action.
 
 ![French Cavalry Disengages](/Hastings/cavalryDisengage.svg)
+*French cavalry falls back, Harold's right flank pursues*
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 0 | 0 Damage |
+|||| II | 0 | 0 Damage |
+|||| III | 3 | 1 Damage |
+| IV | 2 | 0 Damage | IV | 4 | 0 Damage |
+| V | 2 | 0 Damage | V | 3 | 1 Damage |
+| VI | 0 | 0 Damage | VI | 1  | 1 Damage |
+| VII | 1 | 0 Damage | VII | 2 | 0 Damage |
+| VIII | 1 | 0 Damage ||||
+| IX | 2 | 0 Damage |||
+
+
+
+
 
 ![Housecurls Route](/Hastings/housecurlsRoute.svg)
+
+| Harold's Unit | Command Points | Health | William's Unit | Command Points | Health |
+| --- | --- | --- | --- | --- | --- |
+|||| I | 1 | 0 Damage |
+|||| II | 1 | 0 Damage |
+|||| III | 4 | 0 Damage |
+| IV | 3 | 0 Damage | IV | 4 | 0 Damage |
+| V | 3 | 0 Damage | V | 4 | 0 Damage |
+| VI | 1 | 0 Damage | VI | 3  | 1 Damage |
+| VII | 1 | 0 Damage | VII | 4 | 0 Damage |
+| VIII | 2 | 0 Damage ||||
+| IX | 3 | 0 Damage ||||
+
 
 ![Fyrd Advances on Harold's Right](/Hastings/fyrdAdvances.svg)
 
